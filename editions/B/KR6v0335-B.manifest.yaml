@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6v0335/B/v1
+canonical_location: https://kanripo.org/bkk/KR6v0335/B/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 三自性論
+  identifiers:
+    krp: KR6v0335
+    cbeta: B09n0036
+    cbeta_old_id: B09n0036
+    authorityid: CA0006120
+    json_key: B0036
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B09/B09n0036.xml
+    old_id: B09n0036
+  edition:
+    short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0335_000-B.yaml, hash: 'sha256:2c37e741b20e1f042dfe4a69ce6097a249aeb311da132bb3c945a32e59bc8de4'}
+  - {seq: 1, filename: KR6v0335_001-B.yaml, hash: 'sha256:dd7cce8294aa18f7f2bab47fbb770904f76e4926d8e44bd26a58f74809602cc7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0335_000-B.markers.yaml, hash: 'sha256:8719a81362f2042236170b48379574dc4bff4b688b39f9e4e8e6b2f424e48908'}
+  - {seq: 1, role: markers, filename: assets/KR6v0335_001-B.markers.yaml, hash: 'sha256:8b04a286849b2305fbbec545effbbdd32aa9a39762baf8f27ded09b1e20ca488'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0335_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 1369
+  label: 三自性論
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0335_B_001-mulu-1
+    span:
+    - body
+    - 9
+    - 9
+  label: 本文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0335_B_001-mulu-2
+    span:
+    - body
+    - 793
+    - 793
+  label: 譯者說明
+  type: mulu
+  level: 1
+hash: sha256:eb75ca8a8a9cfc0a2a32fbb896063e9eca388398dae4a7432d33cdfe57cf385f

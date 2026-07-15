@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0335/v1
 canonical_location: https://kanripo.org/bkk/KR6v0335/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 三自性論
   source:
@@ -19,10 +19,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0335_000.yaml, hash: 'sha256:2c37e741b20e1f042dfe4a69ce6097a249aeb311da132bb3c945a32e59bc8de4'}
-  - {seq: 1, filename: KR6v0335_001.yaml, hash: 'sha256:dd7cce8294aa18f7f2bab47fbb770904f76e4926d8e44bd26a58f74809602cc7'}
+  - {seq: 1, filename: KR6v0335_001.yaml, hash: 'sha256:01b0f319df908cff0a089ea3ab6c484d91f41195fbf36641ebe8bbdaac488439'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0335_000.markers.yaml, hash: 'sha256:38d2f712ce1f238662d9d86a4f81825e08ce4b09abca084786a03f8cbbc3ba37'}
-  - {seq: 1, role: markers, filename: assets/KR6v0335_001.markers.yaml, hash: 'sha256:a68b3eb0c35b25d72e1616c53eb016cb582c7ed0ec26192cd32a05a26099dc5c'}
+  - {seq: 1, role: markers, filename: assets/KR6v0335_001.markers.yaml, hash: 'sha256:1470de2a56647e00de43b52de6864fabb32012282ca39e6286760e594c582356'}
 table_of_contents:
 - ref:
     seq: 1
@@ -54,4 +54,7 @@ table_of_contents:
   label: 譯者說明
   type: mulu
   level: 1
-hash: sha256:706d7e90a056619a11546280c6453b7690e610dfa0a06a092341e1566024670e
+hash: sha256:55dea004a4145d4e4cdb4496b22d18819e33c150f9633f01350e9f9e42ddc722
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
